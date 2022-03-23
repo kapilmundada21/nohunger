@@ -1,0 +1,23 @@
+body{
+    padding-top: 100px;
+}
+.navbar{
+    z-index: 99;
+    position: fixed;
+}
+.navbar-brand span{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.collapse form button{
+    margin-right: 30px;
+}
+.site-footer{
+    padding: 100px;
+    background-color: #2B2E33;
+    color: white;
+}
+.site-footer a{
+    color: lightgray;
+    text-decoration: none;
+}

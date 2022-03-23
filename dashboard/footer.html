@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .footer_main {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #2B2E33;
+            color: white;
+            text-align: center;
+        }
+
+        .footer_about {
+            padding: 100px;
+            width: 30%;
+        }
+
+        .footer_links {
+            padding: 100px;
+            width: 30%;
+        }
+
+        .footer_contact {
+            width: 30%;
+            padding: 100px;
+        }
+
+        .footer_main ul,
+        .footer_main li {
+            text-decoration: none;
+            padding: 10px;
+            list-style-type: none;
+            margin: 0px;
+        }
+
+        .footer_main a {
+            color: #f2f5f7;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .footer_main a:hover {
+            color: #61DAFB;
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 990px){
+            .footer_main {
+                display: block;
+            }
+            .footer_about {
+                width: 100%;
+                padding: 50px;
+            }
+            .footer_links{
+                padding: 50px;
+                width: 100%;
+            }
+            .footer_contact{
+                padding: 50px;
+                width: 100%;
+            }
+        }
+        @media only screen and (max-width: 400px){
+            .footer_about{
+                width: 80%;
+            }
+            .footer_links{
+                width: 80%;
+            }
+            .footer_contact{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="footer_main">
+        <div class="footer_about">
+            <h3>About Us</h3><br>
+            <p>
+                Using the All in one Store Products truly made our life more confortable.
+                It's so easy to use. We just love it.
+            </p>
+        </div>
+        <div class="footer_links">
+            <h3>Quick Links</h3>
+            <ul class="footer_list">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer_contact">
+            <h3>Contact Info</h3>
+            <ul class="contact_list">
+                <li class="address">Collage Road, Nashik, Maharashtra, India</li>
+                <li class="phone"><a href="tel://9876543210">+91 9876543210</a></li>
+                <li class="email">emailaddress@domain.com</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
