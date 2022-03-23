@@ -4,6 +4,7 @@ body{
 .navbar{
     z-index: 99;
     position: fixed;
+    text-align: center;
 }
 .navbar-brand span{
     margin-left: 20px;
