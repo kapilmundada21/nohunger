@@ -175,7 +175,10 @@
           <hr>
           <label for="comment">Leave a comment (optional) : </label><br>
           <textarea name="comment" id="comment" cols="30" rows="5" placeholder="comment"></textarea><br>
-          <button type="submit">Donate</button>
+          <!-- <button type="submit">Donate</button> -->
+          <div class='pm-button'>
+            <a href='https://www.payumoney.com/paybypayumoney/#/B1FBF1A8D1A80A029A5F82907E12975E'><img src='https://www.payumoney.com/media/images/payby_payumoney/new_buttons/22.png' /></a>
+        </div>
         </div>
     </div>
 

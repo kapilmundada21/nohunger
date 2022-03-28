@@ -25,8 +25,9 @@
 
             <div class="block-7">
               <h3 class="footer-heading mb-4">About Us</h3>
-              <p>Using the All in one Store Products truly made our life more confortable.It's so easy to use.
-					We just love it.</p>
+              <p>
+                We are students from Gokhale education society. We are currently pursuing a degree in computer engineering.
+              </p>
             </div>
             
           </div>
@@ -34,8 +35,8 @@
             <h3 class="footer-heading mb-4">Quick Links</h3>
             <ul class="list-unstyled">
               <li><a class="nav-link active" href="index.php">Home</a></li>
-              <li><a class="nav-link active" href="#">Support</a></li>
-              <li><a class="nav-link active" href="#">Donate</a></li>
+              <li><a class="nav-link active" href="supportus.php">Support</a></li>
+              <li><a class="nav-link active" href="money_donate.php">Donate</a></li>
               <li><a class="nav-link active" href="aboutus.php">About Us</a></li>
               <li><a class="nav-link active" href="contactus.php">Contact Us</a></li>
             </ul>
@@ -45,9 +46,12 @@
             <div class="block-5 mb-5">
               <h3 class="footer-heading mb-4">Contact Info</h3>
               <ul class="list-unstyled">
-                <li class="address">Collage Road, Nashik, Maharashtra, India</li>
-                <li class="phone"><a href="tel://9876543210">+91 9876543210</a></li>
-                <li class="email">emailaddress@domain.com</li>
+                <li>Gokhale Education Society's 
+                <br>R. H. Sapat College Engineering,
+                <br>Collage Road, Nashik, Maharashtra,
+                <br>India 422005</li>
+                <!-- <li class="phone"><a href="tel://9876543210">+91 9876543210</a></li> -->
+                <li class="email">weebtoons065@gmail.com</li>
               </ul>
             </div>
 

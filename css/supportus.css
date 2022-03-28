@@ -1,45 +1,26 @@
-body{
-    overflow-x: hidden;
-}
-.mySlides {
-    display:none;
-    width:93%;
-    height: 80vh;
-}
-.content1{
-    padding: 100px;    
-}
-.content1 .text{
-    margin-left: 10%;
-    text-align: center;
-    width: 80%;
-    font-size: 1.2em;
-}
-.content1 .content1img{
-    display: block;
-    margin-top: 50px;
-}
-.content2{
-    font-size: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding: 80px;
-    flex-wrap: wrap;
-    text-align: center;
-}
-.content2 .left{
-    width: 70%;
-    padding-top: 40px;
-    margin-bottom: 30px;
-}
-.content2 .right{
-    margin-bottom: 30px;
-    padding: 40px;
-    border: 1px solid black;
-    border-radius: 100px;
-    background-color: #0d6efd;
+.box{
+    padding-top: 50px;
+    background: url("../images/aboutus_background.jpg");
+    background-size: cover;
     color: white;
+    text-align:center;
+    z-index:1;
+}
+.box_text{
+    padding: 100px 0;
+}
+.box p{
+    font-size:18px;
+}
+.red{
+    color:orangered;
+}
+.redline-address{
+    border:none;
+    height:3px;
+    background-color:orangered;
+    width:140px;
+    margin-bottom:20px;
 }
 .block_content_left{
     font-size: 1em;
@@ -91,14 +72,6 @@ body{
     background-color: #198754;
     color: white;
 }
-.parallax {
-    background-image: url("../images/home_parallex.jpg");
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .reveal{
     transform: translateY(100px);
     opacity: 0;
@@ -109,31 +82,6 @@ body{
     opacity: 1;
 }
 @media only screen and (max-width: 990px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-    .mySlides {
-        height: 60vh;
-    }
-    .content1{
-        padding: 70px;
-    }
-    .content1 .text{
-        width: 100%;
-        margin-left: 0px;
-    }
-    .content1 .content1img{
-        display: block;
-    }
-    .content2{
-        padding: 0px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        justify-content: center;
-    }
-    .content2 .left{
-        width: 90%;
-    }
     .block_content_left{
         padding: 70px;
         display: block;
@@ -157,13 +105,6 @@ body{
     }
 }
 @media only screen and (max-width: 400px){
-    .mySlides {
-        height: 50vh;
-    }
-    .content1{
-        margin-top: 20px;
-        padding: 50px;    
-    }   
     .block_content_left{
         padding: 50px;
     }

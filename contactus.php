@@ -19,7 +19,7 @@
                 <h1>Contact <span class="red">Us</span></h1>
                 <div class="redline-address"></div>
             </center>
-            <p>Have Questions ? We have answers ( may be )</p>
+            <p><b>Have Questions ? We have answers ( may be )</b></p>
         </div>
     </div>
 
@@ -30,21 +30,21 @@
         </center>
     </div>
 
-    <form action="" method="POST" name="contact-form">
+    <form action="" class="contact-form" name="contact-form">
         <div class="input_fileds">
-            <div class="margin"><input type="text" placeholder="First Name" name="firstname" required></div>
+            <div class="margin"><input class="firstname" type="text" placeholder="First Name" name="firstname" required></div>
         
-            <div class="margin"><input type="text" placeholder="Last Name" name="lastname" required></div>
+            <div class="margin"><input class="lastname" type="text" placeholder="Last Name" name="lastname" required></div>
 
-            <div class="margin"><input type="text" placeholder="Company Name" name="company" required></div>
+            <div class="margin"><input class="company" type="text" placeholder="Company Name" name="company" required></div>
         
-            <div class="margin"><input type="number" placeholder="Phone" name="firstname" required></div>
+            <div class="margin"><input class="number" type="number" placeholder="Phone" name="phone" required></div>
         
-            <div class="margin"><input type="email" placeholder="E-mail" name="email" required></div>
+            <div class="margin"><input class="email" type="email" placeholder="E-mail" name="email" required></div>
         
-            <div class="margin"><input type="text" placeholder="Course" name="course" required></div>
+            <div class="margin"><input class="city" type="text" placeholder="City" name="City" required></div>
 
-            <div class="margin_textarea"><textarea rows="6" placeholder="Message" name="message" required></textarea></div>
+            <div class="margin_textarea"><textarea class="message" rows="6" placeholder="Message" name="message" required></textarea></div>
         </div>
         <div class="form_btn">
             <button type="submit">SEND MESSAGE</button>
@@ -57,13 +57,14 @@
         <div class="text_address">
             <h3>Our Address</h3>
             <div class="redline-address"></div>
+            <p>Gokhale Education Society's <br>R. H. Sapat College Engineering,</p>
             <p>Collage Road,</p>
             <p>Nashik,</p>
             <p>Maharashtra,</p>
-            <p>India</p>
+            <p>India 422005</p>
             <div class="phone-e">
-                <p><span class="glyphicon glyphicon-envelope"> </span> emailaddress@domain.com</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +91-9876543210</p>
+                <p><span class="glyphicon glyphicon-envelope"> </span> weebtoons065@gmail.com</p>
+                <!-- <p><span class="glyphicon glyphicon-phone"></span> +91-9876543210</p> -->
             </div>
         </div>
         <!--map-->
@@ -72,6 +73,12 @@
         </div>
     </div>
 
+    <?php include 'other/footer.php';?>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    
+    <script src="backend/contact.js"></script>
+    
     <script>
         function initMap(){
             const location = { lat: 20.005150, lng: 73.758179 };
@@ -86,7 +93,6 @@
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB0INHqlcOcNexR3OOwZsIghGsh8rCI4A&callback=initMap&v=weekly" async></script>
-    <?php include 'other/footer.php';?>
-
+    
 </body>
 </html>

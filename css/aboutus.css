@@ -4,7 +4,7 @@
 }
 .box{
     padding-top: 50px;
-    background: url("../images/home_8.png");
+    background: url("../images/aboutus_background.jpg");
     background-size: cover;
     color: white;
     text-align:center;
@@ -66,7 +66,7 @@
     text-align: center;
     margin-top: 50px;
     padding: 20px;
-    background: #000000;
+    background: #dfa436;
 }
  
 .team_card{

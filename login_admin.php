@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Registration</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
-	
-    <?php include 'other/header.php';?>
 
+    <?php include 'other/header.php';?>
+	
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -18,21 +18,13 @@
 					<img src="images/login_img.png" alt="IMG">
 				</div>
 
-				<form id="registration-form" class="login100-form validate-form"  onSubmit="signUp()">
+				<form onsubmit="login()" class="login100-form validate-form" id="LoginForm">
 					<span class="login100-form-title">
-						Registration
+						Admin Login
 					</span>
 					<center><small><span id="error" style="color: red"></span></small></center>
 
-					<div class="wrap-input100 validate-input">
-						<input id="name" class="input100" type="text" name="name" placeholder="Name" required>
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div>
-
-					<div class="wrap-input100 validate-input">
+					<div  class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input id="email" class="input100" type="email" name="email" placeholder="Email" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -40,18 +32,8 @@
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input">
-						<input id="number" class="input100" type="number" name="number" placeholder="Moblie Number" minlength="10" maxlength="10" required>
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div>
-
-					
-
-					<div class="wrap-input100 validate-input">
-						<input id="password" class="input100" type="password" name="pass" placeholder="Password" minlength="4" required>
+					<div  class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input id="password" class="input100" type="password" name="pass" placeholder="Password" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -59,17 +41,17 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button type="submit" class="login100-form-btn">
-							Signup
+						<button class="login100-form-btn" >
+							Login
 						</button>
 					</div>
 
-					
-
-					<div class="text-center p-t-136">
-						<a class="txt2" href="login.php">
-							Already have an Account
-							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a onClick="forgotPass()" class="txt2" href="#">
+							 Password?
 						</a>
 					</div>
 				</form>
@@ -78,7 +60,7 @@
 	</div>
 
 	<?php include 'other/footer.php';?>
-	
+
 
 <!--===============================================================================================-->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -91,7 +73,7 @@
 <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
 
 <script src="backend/login_registration/firebase.js"></script>
-<script src="backend/login_registration/registration.js"></script>	
+<script src="backend/login_registration/index.js"></script>
 <!--===============================================================================================-->	
 	<script src="support_files/login/jquery-3.2.1.min.js"></script>
 	<script src="support_files/login/tilt.jquery.min.js"></script>

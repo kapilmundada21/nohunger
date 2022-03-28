@@ -188,7 +188,14 @@ table textarea{
     }
 }
 @media only screen and (max-width: 400px) {
+    .main_containor{
+        padding-top: 50px;
+    }
     .address table tr{
+        display: flex;
+        flex-direction: column;
+    }
+    .food_details table tr{
         display: flex;
         flex-direction: column;
     }

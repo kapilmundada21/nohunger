@@ -4,25 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/index.css">
-    <title>No Hunger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="other/bot/bot.css">
+    <title>Annapurna</title>
   </head>
   <body>
 
   <?php include 'other/header.php';?>
 
-  <div class="img_slideshow">
+  <div class="img_slideshow" align="center">
     <img class="mySlides" src="images/home_1.jpg">
     <img class="mySlides" src="images/home_2.jpg">
     <img class="mySlides" src="images/home_3.jpg">
     <img class="mySlides" src="images/home_4.jpg">
   </div>
-
-    <!-- <figure id="slidy">&nbsp;
-      <img alt="" src="images/home_1.jpg" />
-      <img alt="" src="images/home_2.jpg" />
-      <img alt="" src="images/home_3.jpg" />
-      <img alt="" src="images/home_4.jpg" />
-    </figure> -->
 
     <div class="content1">
       <div class="text reveal">
@@ -107,13 +102,52 @@
           <p>
             If possible, try to provide daily food using the concept of daily (1 roti from 1 family) ... if not, try to supply monthly food If possible, connect with the hotel and try to provide the remaining food to the needy.
         </p><br>
-        <button type="button">Be a Member</button>
+        <a href="registration.php"><button type="button" >Be a Member</button></a>
       </div>
     </div>
+
+    <input type="checkbox" id="check"> <label class="chat-btn" for="check"> <i class="fa fa-commenting-o comment"></i>
+        <i class="fa fa-close close"></i> </label>
+    <div class="wrapper">
+        <div class="header">
+            <h6>Quick Responce</h6>
+        </div>
+        <div class="content">
+            <span>Please fill out the form to start chat!</span>
+            <form action=""  class="instant">
+                <input class="name" type="text" class="form-control name" placeholder="Name" required>
+                <input class="email" type="text" class="form-control email" placeholder="Email" required>
+                <textarea class="message" class="form-control message" placeholder="Your Text Message" required></textarea>
+                <span><small>Your query will solved within 24hrs</small></span>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="other/bot/bot_backend.js"></script>
     
     <?php include 'other/footer.php';?>
-    <script src="js/index.js"></script>
+
     <script type="text/javascript">
+
+        // image slider js
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+
+        // revel animation js
         window.addEventListener('scroll', reveal);
 
         function reveal(){
@@ -134,7 +168,6 @@
           }
         }
     </script>
-
     
   </body>
 </html>

@@ -3,7 +3,7 @@ body{
 }
 .box{
   padding-top: 50px;
-  background: url("../images/home_8.png");
+  background: url("../images/aboutus_background.jpg");
   color: white;
   text-align:center;
   z-index:1;
@@ -62,7 +62,7 @@ h3{
   margin-bottom:100px;
 }
 .box{
-background: url("../images/home_8.png");
+background: url("../images/aboutus_background.jpg");
 background-size: cover;
 color: white;
 text-align:center;
