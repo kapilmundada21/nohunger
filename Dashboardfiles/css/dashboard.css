@@ -4,6 +4,13 @@ body{
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+    display: none; /* chrome */
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 #sidebar_btn{
     transform: translate(-275px,0px);
 }

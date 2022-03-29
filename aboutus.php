@@ -30,7 +30,6 @@
                 <p>
                     In the last few years, we've seen how people have suffered because of corona...
                 </p>
-
                 <p>
                     People like us also suffered due to lack of food, so we thought we could 
                     do something to help those in need of food with our technology.
@@ -42,7 +41,7 @@
                 </p>
             </div>
             <div class="img">
-                <img src="images/home_6.png" alt="" width="300px" height="250px">
+                <img src="images/aboutus/about.jpg" alt="" width="300px" height="250px">
             </div>
         </div>
 
@@ -53,7 +52,7 @@
             </center>
             <div class="right">
                 <div class="image" align="center">
-                    <img src="images/home_1.jpg" alt="" width="300px" height="250px">
+                    <img src="images/aboutus/mission.jpg" alt="" width="300px" height="250px">
                 </div>
                 <div class="text">
                     <p>
@@ -79,7 +78,7 @@
             <div class="team_containor">
                 <div class="team_card">
                     <div class="pic">
-                        <img src="images/vishal.jpeg">
+                        <img src="images/aboutus/team/vishal.jpeg">
                     </div>
                     <h3 class="title">Vishal Patil</h3>
                     <span class="post">Web Developer</span>
@@ -93,7 +92,7 @@
 
                 <div class="team_card">
                     <div class="pic">
-                        <img src="images/kapil.jpg">
+                        <img src="images/aboutus/team/kapil.jpg">
                     </div>
                     <h3 class="title">Kapil Mundada</h3>
                     <span class="post">Web Designer</span>
@@ -109,7 +108,7 @@
 
                 <div class="team_card">
                     <div class="pic">
-                        <img src="images/pratik.jpg">
+                        <img src="images/aboutus/team/pratik.jpg">
                     </div>
                     <h3 class="title">Pratik Parvat</h3>
                     <span class="post">Web Designer</span>
@@ -125,7 +124,7 @@
 
                 <div class="team_card">
                     <div class="pic">
-                        <img src="images/aditya.jpg">
+                        <img src="images/aboutus/team/aditya.jpeg">
                     </div>
                     <h3 class="title">Aditya Hyalij</h3>
                     <span class="post">Web Designer</span>

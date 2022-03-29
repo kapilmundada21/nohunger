@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/fevicon_assect/favicon-96x96.png" type="image/x-icon">
     <style>
       .navbar{
         z-index: 99;
@@ -39,6 +40,9 @@
           margin-top: 20px;
           margin-bottom: 20px;
         }
+        .dropdown{
+          margin-top:20px;
+        }
       }
     </style>
 </head>
@@ -72,7 +76,7 @@
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle navbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Donate   </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="money_donate.php">Money</a>
+                  <a class="dropdown-item" href="https://pmny.in/qrgpx69I5tQw">Money</a>
                   <a class="dropdown-item" href="food_donate.php">Food</a>
                   <a class="dropdown-item" href="cloths_donate.php">Cloths</a>
                 </div>
@@ -80,13 +84,17 @@
               <a href="login.php">
                 <button class="navbtn mx-4" type="button">Login and Register</button>
               </a>
-              <a href="login_admin.php">
+              <!-- <a href="login_admin.php">
                 <button class="navbtn" type="button">Admin Login</button>
               </a>
-              <div class="mx-2"></div>
+              <div class="mx-2"></div> -->
           </div>
         </div>
     </nav>
+
+    <div style="display:none;"> 
+      <a id="donate_button" style="width: 135px; background-color: #1065B7; text-align: center; font-weight: 800; padding: 11px 0px; color: white; font-size: 12px; display: inline-block; text-decoration: none; " href='https://pmny.in/qrgpx69I5tQw'>Donate Now</a> 
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

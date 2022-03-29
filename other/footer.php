@@ -36,7 +36,7 @@
             <ul class="list-unstyled">
               <li><a class="nav-link active" href="index.php">Home</a></li>
               <li><a class="nav-link active" href="supportus.php">Support</a></li>
-              <li><a class="nav-link active" href="money_donate.php">Donate</a></li>
+              <li><a class="nav-link active" href="https://pmny.in/qrgpx69I5tQw">Donate</a></li>
               <li><a class="nav-link active" href="aboutus.php">About Us</a></li>
               <li><a class="nav-link active" href="contactus.php">Contact Us</a></li>
             </ul>
@@ -51,7 +51,7 @@
                 <br>Collage Road, Nashik, Maharashtra,
                 <br>India 422005</li>
                 <!-- <li class="phone"><a href="tel://9876543210">+91 9876543210</a></li> -->
-                <li class="email">weebtoons065@gmail.com</li>
+                <li class="email"><a href="mailto:weebtoons065@gmail.com">weebtoons065@gmail.com</a></li>
               </ul>
             </div>
 

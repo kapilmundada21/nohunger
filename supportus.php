@@ -38,13 +38,13 @@
             </p>
         </div>
         <center>
-            <img src="images/home_7.jpg" width="250px" height="250" class="reveal">
+            <img src="images/support/tryingToDo.jpg" width="250px" height="250" class="reveal">
         </center>
     </div>
 
     <div class="block_content_right">
         <center>
-            <img src="images/home_7.jpg" width="250px" height="250" class=" reveal">
+            <img src="images/support/ourVision.jpg" width="250px" height="250" class=" reveal">
         </center>
         <div class="text reveal">
             <h2>Our Vision</h2><br>
@@ -59,7 +59,7 @@
             <p>
                 So join us and we will make this world free from hunger !!!
             </p><br>
-            <button type="button">Be a Member</button>
+            <a href="registration.php"><button type="button">Be a Member</button></a>
         </div>
     </div>
 
@@ -77,7 +77,7 @@
             </p>    
         </div>
         <center>
-            <img src="images/home_7.jpg" width="250px" height="250" class="reveal">
+            <img src="images/home/membersDo.jpg" width="250px" height="250" class="reveal">
         </center>
     </div>
 

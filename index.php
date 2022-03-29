@@ -13,10 +13,10 @@
   <?php include 'other/header.php';?>
 
   <div class="img_slideshow" align="center">
-    <img class="mySlides" src="images/home_1.jpg">
-    <img class="mySlides" src="images/home_2.jpg">
-    <img class="mySlides" src="images/home_3.jpg">
-    <img class="mySlides" src="images/home_4.jpg">
+    <img class="mySlides" src="images/home_slideshow/home_slideshow1.jpg">
+    <img class="mySlides" src="images/home_slideshow/home_slideshow2.jpg">
+    <img class="mySlides" src="images/home_slideshow/home_slideshow3.jpg">
+    <img class="mySlides" src="images/home_slideshow/home_slideshow4.jpg">
   </div>
 
     <div class="content1">
@@ -32,9 +32,9 @@
         </p><br>
       </div>
       <div class="content1img reveal" align="center">
-        <img src="images/home_content1a.png" alt="logo" width="300px" height="250px">
-        <img src="images/home_content1b.png" alt="logo" width="300px" height="250px">
-        <img src="images/home_content1c.png" alt="logo" width="300px" height="250px">
+        <img src="images/home/home_content1a.png" alt="logo" width="300px" height="250px">
+        <img src="images/home/home_content1b.png" alt="logo" width="300px" height="250px">
+        <img src="images/home/home_content1c.png" alt="logo" width="300px" height="250px">
       </div>
     </div>
       
@@ -60,14 +60,14 @@
 
     <div class="block_content_right">
       <center>
-        <img src="images/home_7.jpg" width="250px" height="250" class=" reveal">
+        <img src="images/home/causeOfHunger.jpg" width="250px" height="250" class=" reveal">
       </center>
       <div class="text reveal">
           <h2>Cause of Hunger</h2><br>
           <p>
           Due to an unbalanced diet, vital vitamins are lacking, along with iron, iodine, zinc, or diet A. At first glance, the effects aren't always very visible, however, over the long-time period, those nutrient deficiencies result in severe diseases. In particular, youngsters are not able to expand correctly, neither mentally nor physically. The danger of dying is high.
           </p>
-        <button type="button">Donate Now</button>
+        <a href="https://pmny.in/qrgpx69I5tQw"><button type="button">Donate Now</button></a>
       </div>
     </div>
 
@@ -85,13 +85,13 @@
           </p>
       </div>
       <center>
-        <img src="images/home_7.jpg" width="250px" height="250" class="reveal">
+        <img src="images/home/tryingToDo.jpg" width="250px" height="250" class="reveal">
       </center>
     </div>
 
     <div class="block_content_right">
       <center>
-        <img src="images/home_7.jpg" width="250px" height="250" class=" reveal">
+        <img src="images/home/membersDo.jpg" width="250px" height="250" class=" reveal">
       </center>
       <div class="text reveal">
           <h2>What members do :</h2><br>

@@ -63,7 +63,7 @@
             <p>Maharashtra,</p>
             <p>India 422005</p>
             <div class="phone-e">
-                <p><span class="glyphicon glyphicon-envelope"> </span> weebtoons065@gmail.com</p>
+                <p><span class="glyphicon glyphicon-envelope"> </span><a href="mailto:weebtoons065@gmail.com"> weebtoons065@gmail.com</a></p>
                 <!-- <p><span class="glyphicon glyphicon-phone"></span> +91-9876543210</p> -->
             </div>
         </div>

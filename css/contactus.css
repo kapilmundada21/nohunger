@@ -185,6 +185,9 @@ textarea{
 .text_address{
   margin: 50px;
 }
+.text_address a{
+  text-decoration: none;
+}
 #map{
   width: 600px;
   height: 480px;

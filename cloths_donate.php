@@ -15,28 +15,28 @@
         <h1>Donate Cloths</h1>
         <hr>
         <div class="food_details">
-            <form name="food" action="" method="post">
+            <form name="food" action="" method="post" class="clothform">
                 <table cellspacing="15" cellpadding="10">
                     <tr>
                         <th><label for="name">Name : </label></th>
                         <td colspan="3">
-                            <input type="text" name="name" id="name" placeholder="First Name" required>
-                            <input type="text" name="name" id="name" placeholder="Midddle Name" required>
-                            <input type="text" name="name" id="name" placeholder="Last Name" required>
+                        <input class="firstname" type="text" name="name" id="name" placeholder="First Name" required>
+                            <input class="middlename" type="text" name="name" id="name" placeholder="Midddle Name" required>
+                            <input class="lastname" type="text" name="name" id="name" placeholder="Last Name" required>
                         </td>
                     </tr>
                     <tr>
                         <th><label for="email">Email : </label></th>
-                        <td><input type="email" name="email" id="email" placeholder="Email" required></td>
+                        <td><input class="email" type="email" name="email" id="email" placeholder="Email" required></td>
                     </tr>
                     <tr>
                         <th><label for="phone">Phone : </label></th>
-                        <td><input type="number" name="phone" id="phone" placeholder="Phone(optional)"></td>
+                        <td><input class="number" type="number" name="phone" id="phone" placeholder="Phone(optional)"></td>
                     </tr>
                     <tr>
                         <th><label for="cloths_type">Cloths Type : </label></th>
                         <td>
-                            <select name="cloths_type" id="cloths_type">
+                            <select class="clothstype" name="cloths_type" id="cloths_type">
                                 <option value="new">New Cloths</option>
                                 <option value="old">Old Cloths</option>
                             </select>
@@ -44,16 +44,16 @@
                     </tr>
                     <tr>
                         <th><label for="country">Country : </label></th>
-                        <td><input type="text" name="country" id="country" placeholder="Country" required></td>
+                        <td><input class="country" type="text" name="country" id="country" placeholder="Country" required></td>
                     </tr>
                     <tr>
                         <th><label for="address">Address : </label></th>
-                        <td><textarea name="address" id="address" cols="30" rows="5" placeholder="address" required></textarea></td>
+                        <td><textarea class="address" name="address" id="address" cols="30" rows="5" placeholder="address" required></textarea></td>
                     </tr>
                     </table>
-                    <input type="checkbox" name="anonymous" id="anonymous">
+                    <input class="anonymous" type="checkbox" name="anonymous" id="anonymous">
                     I would like this gift to remain anonymous
-            </form>
+           
         </div>
         <div class="recurring">
           <h2>Recurring Gift</h2>
@@ -78,51 +78,16 @@
         </div>
         <div class="submit_donation">
           <hr>
-          <label for="comment">Leave a comment (optional) : </label><br>
-          <textarea name="comment" id="comment" cols="30" rows="5" placeholder="comment"></textarea><br>
+          
           <button type="submit">Donate</button>
         </div>
+        </form>
     </div>
 
-    <script>
-      // Amount
-      var donation_amount = document.getElementById("donation_amount");
-      var amounts = donation_amount.getElementsByClassName("amount");
-      for (var i = 0; i < amounts.length; i++) {
-          amounts[i].addEventListener("click", function() {
-              var current = document.getElementsByClassName("selected_amount");
-              current[0].className = "amount";
-              this.className += " selected_amount";
-          });
-        }
-              
-        
-      // Amount Other
-      let other_amount = document.getElementById('other_amount');
-      let html = `<input type="text" name="amount" placeholder="other" id="input_amount" class="input_amount">`;
-      let input_amount = document.getElementById('input_amount');
-      other_amount.addEventListener('click' , addhtml());
-      function addhtml(){
-        other_amount.innerHTML = html;  
-      }
-      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="backend/donation_backend/cloths.js"></script>
 
-      // payment details
-      let credit = document.getElementById('credit');
-      let debit = document.getElementById('debit');
-      credit.addEventListener('click' , function() {
-          credit.className = "selected_button";
-          debit.className = "";
-          document.getElementById('credit_details').style.display = "block";
-          document.getElementById('debit_details').style.display = "none";
-      });
-      debit.addEventListener('click' , function() {
-          debit.className = "selected_button";
-          credit.className = "";
-          document.getElementById('credit_details').style.display = "none";
-          document.getElementById('debit_details').style.display = "block";
-      });
-    </script>
+    
   <?php include 'other/footer.php';?>
 
 </body>

@@ -92,7 +92,7 @@ body{
     color: white;
 }
 .parallax {
-    background-image: url("../images/home_parallex.jpg");
+    background-image: url("../images/home/home_parallex.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
