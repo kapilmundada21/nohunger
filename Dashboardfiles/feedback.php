@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/feedback.css">
 </head>
 <body>
+
+<?php include 'dashboard_header.php'; ?>
+<?php include 'dashboard_sidebar.php'; ?>
     
     <div class="main_containor">
         <h1>Feedback Form</h1>
@@ -45,3 +48,5 @@
 
 </body>
 </html>
+
+<?php include 'dashboard_footer.php'; ?>

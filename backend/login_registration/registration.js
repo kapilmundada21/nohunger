@@ -4,7 +4,7 @@ document.getElementById("registration-form").addEventListener("submit",(event)=>
 
 firebase.auth().onAuthStateChanged((user)=>{
     if(user){
-        location.replace("Dashboardfiles/dashboard.html")
+        location.replace("Dashboardfiles/index.php")
     }
 })
 

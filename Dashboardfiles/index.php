@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
+
+<?php include 'dashboard_header.php'; ?>
+<?php include 'dashboard_sidebar.php'; ?>
     
-    <center><div style="margin:100px">
+    <center><div style="padding:100px">
         <span id="user" class="message">Hello,<b> < email-id ></b></Email-id></span>
         <div class="success"><span>Welcome to auth starter, You are successfully loged in!!!</span></div><br/>
         
@@ -29,3 +32,5 @@
 
 </body>
 </html>
+
+<?php include 'dashboard_footer.php'; ?>

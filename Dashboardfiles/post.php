@@ -8,6 +8,9 @@
     <title>Post</title>
 </head>
 <body>
+
+<?php include 'dashboard_header.php'; ?>
+<?php include 'dashboard_sidebar.php'; ?>
     
     <div class="main_containor" align="center">
         <div class="post_type" id="post_type">
@@ -69,5 +72,8 @@
             }
         }
     </script>
+    
 </body>
 </html>
+
+<?php include 'dashboard_footer.php'; ?>
