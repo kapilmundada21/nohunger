@@ -14,9 +14,8 @@
         <input type="checkbox" id="check">
         <header>
             <div class="left_area">
-                <label for="check">
-                    <i class="fas fa-bars" id="sidebar_btn"></i><span>Annapurna</span>
-                </label>
+                <label for="check"><i class="fas fa-bars" id="sidebar_btn"></i></label>
+                <span>Annapurna</span>
             </div>
             <div class="right_area">
                 <a href="#" class="logout_btn" onclick="logout()">Logout</a>

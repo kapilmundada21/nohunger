@@ -86,7 +86,7 @@ label #sidebar_btn {
     margin: 5px 0;
     transition: 0.5s;
     transition-property: color;
-    padding-left: 25px;
+    margin-left: 25px;
 }
 label #sidebar_btn:hover{
     color: #19b3d3;
@@ -146,7 +146,7 @@ label #sidebar_btn:hover{
         transition-property: left;
     }
     .sidebar .profile_image{
-        transform:translateX(10px);
+        transform:translateX(0px);
     }
     .sidebar a {
         padding-top: 10px;
@@ -156,18 +156,18 @@ label #sidebar_btn:hover{
         margin: 0px;
         padding: 0px;
     }
-    #check:checked ~ .sidebar .profile_image{
-        transform:translateX(10px);
-    }
     #check:checked ~ .sidebar{
         left: 0px;
+    }
+    #check:checked ~ .sidebar .profile_image{
+        transform:translateX(0px);
     }
     #check:checked ~ .sidebar a span{
         display: inline-block;
     }
     #check:checked~.sidebar a {
         margin: 0px;
-        margin-left: 0px;
+        margin-left: -10px;
         padding-top: 10px;
         padding-bottom: 0px;
         width: 100%;

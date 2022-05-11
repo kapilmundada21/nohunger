@@ -55,10 +55,17 @@ table input[type=radio]{
 }
 @media only screen and (max-width: 400px) {
     .main_containor{
-        padding: 5%;
+        padding: 0px;
+        padding-top: 80px;
+    }
+    .main_containor h1{
+        text-align: center;
+    }
+    table {
+        margin-left: 5%;
     }
     table input[type=text], table textarea{
-        width: 90%;
+        width: 80%;
     }
     .submit_button{
         margin-left: 20%;
